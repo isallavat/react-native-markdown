@@ -1,7 +1,8 @@
-var React = require('react-native');
+var createReactClass = require('create-react-class');
+var reactNative = require('react-native');
 var {
   View
-} = React;
+} = reactNative;
 var _ = require('lodash');
 var SimpleMarkdown = require('simple-markdown');
 
@@ -116,7 +117,7 @@ var styles = {
 };
 
 
-var Markdown = React.createClass({
+var Markdown = createReactClass({
 
   getDefaultProps: function() {
     return {

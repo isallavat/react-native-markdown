@@ -9,6 +9,7 @@
   "main": "Markdown.js",
   "author": "Lochlan Wansbrough <lochie@live.com> (http://lwansbrough.com)",
   "dependencies": {
+    "create-react-class": "^15.6.3",
     "lodash": "^3.6.0",
     "simple-markdown": "git://github.com/lwansbrough/simple-markdown.git"
   },
